@@ -1,10 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import BtnBotcamp from "./components/BtnBotcamp";
+import LogoBotcamp from "./components/LogoBotcamp";
 
-class App extends Component{
-  render() {
-    return <BtnBotcamp />;
-  }
-}
+const App = () => (
+  <section> 
+    <LogoBotcamp />
+    <BtnBotcamp />
+  </section>
+);
 
 export default App;
