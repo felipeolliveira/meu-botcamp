@@ -1,0 +1,10 @@
+.container-wrap {
+  height: 100vh;
+  background: url("/img/ecossistema-background.png") no-repeat top left;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30% 0 20%;
+}
