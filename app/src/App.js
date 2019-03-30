@@ -2,15 +2,17 @@ import React from "react";
 
 import "./style/reset.css";
 import "./style/customize-reset.css";
-import "./App.css";
+
+import LoginWrapper from "./components/LoginWrapper";
 import BtnBotcamp from "./components/BtnBotcamp";
 import LogoBotcamp from "./components/LogoBotcamp";
 
 const App = () => (
-  <section className="container-wrap"> 
+  <>
     <LogoBotcamp />
     <BtnBotcamp />
-  </section>
+    <LoginWrapper />
+  </>
 );
 
 export default App;
