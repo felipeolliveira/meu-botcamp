@@ -1,6 +1,6 @@
 .container-wrap {
   height: 100vh;
-  background: url("/img/ecossistema-background.png") no-repeat top left;
+  background: url("./img/ecossistema-background.png") no-repeat top left;
   background-size: cover;
   display: flex;
   flex-direction: column;
