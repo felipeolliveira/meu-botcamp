@@ -1,8 +1,14 @@
-import React from "react";
-import "./style.css"
+import styled from "styled-components";
 
-const BtnBotcamp = () => (
-  <button className="btn-botcamp">Entrar</button>
-);
+const BtnBotcamp = styled.button`
+  width: 280px;
+  height: 50px;
+  background-color: #ee3e25;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 25px;
+  border: none;
+  text-transform: uppercase;
+`;
 
 export default BtnBotcamp;
