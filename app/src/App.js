@@ -8,11 +8,10 @@ import BtnBotcamp from "./components/BtnBotcamp";
 import LogoBotcamp from "./components/LogoBotcamp";
 
 const App = () => (
-  <>
+  <LoginWrapper>
     <LogoBotcamp />
     <BtnBotcamp />
-    <LoginWrapper />
-  </>
+  </LoginWrapper>
 );
 
 export default App;
