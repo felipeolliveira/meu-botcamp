@@ -10,7 +10,7 @@ const LoginWrapper = styled.main`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 25vh 0 15vh;
+  padding: 120px 0 80px;
 `;
 
 export default LoginWrapper;
