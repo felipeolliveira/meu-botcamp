@@ -3,15 +3,9 @@ import React from "react";
 import "./style/reset.css";
 import "./style/customize-reset.css";
 
-import LoginWrapper from "./components/LoginWrapper";
-import BtnBotcamp from "./components/BtnBotcamp";
-import LogoBotcamp from "./components/LogoBotcamp";
+import Login from "./pages/Login";
+import Chat from "./pages/Chat";
 
-const App = () => (
-  <LoginWrapper>
-    <LogoBotcamp />
-    <BtnBotcamp content="Entrar" />
-  </LoginWrapper>
-);
+const App = () => <Chat />;
 
 export default App;
