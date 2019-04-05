@@ -6,7 +6,7 @@ import HeaderLogout from "../../components/HeaderLogout";
 
 const Chat = () => (
   <HeaderWrapper>
-    <LogoBotcamp width="200px" />
+    <LogoBotcamp small />
     <HeaderLogout />
   </HeaderWrapper>
 );
