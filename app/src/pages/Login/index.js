@@ -6,7 +6,7 @@ import BtnBotcamp from "../../components/BtnBotcamp";
 
 const Login = () => (
   <LoginWrapper>
-    <LogoBotcamp />
+    <LogoBotcamp width="248px" />
     <BtnBotcamp content="Entrar" />
   </LoginWrapper>
 );
