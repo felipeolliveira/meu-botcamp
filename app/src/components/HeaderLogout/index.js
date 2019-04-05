@@ -6,7 +6,7 @@ const HeaderLogout = styled.img.attrs({
   src: logoutIcon,
   alt: "ícone para sair"
 })`
-  width: 30px;
+  float: right;
 `;
 
 export default HeaderLogout;
