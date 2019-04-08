@@ -11,6 +11,7 @@ const BtnBotcamp = styled.button.attrs({
   border-radius: 25px;
   border: none;
   text-transform: uppercase;
+  cursor: pointer;
 `;
 
 export default BtnBotcamp;
