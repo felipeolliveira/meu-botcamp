@@ -1,9 +1,0 @@
-{
-  "name": "meu-botcamp",
-  "version": "1.0.0",
-  "description": "Projeto do botcamp desenvolvido por mim e criado pela Impulso Network",
-  "main": "index.js",
-  "repository": "https://github.com/felipeolliveira/meu-botcamp.git",
-  "author": "Felipe Oliveira <flpoliveira42@gmail.com>",
-  "license": "MPL-2.0"
-}
