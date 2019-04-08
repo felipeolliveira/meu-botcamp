@@ -11,14 +11,12 @@ const HeaderWrapper = styled.header`
   &:after {
     content: "";
     position: absolute;
-    width: 0;
-    height: 0;
+    width: 100%;
+    height: 10px;
     bottom: 0;
     right: 0;
-    border-style: solid;
-    border-width: 0 400px 5px 0;
-    border-color: transparent #26265e transparent transparent;
-    transform: translateY(100%);
+    background-color: inherit;
+    transform: translateY(50%) skew(0deg, 1deg);
   }
 `;
 
