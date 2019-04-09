@@ -10,7 +10,7 @@ import Chat from "./pages/Chat";
 const App = () => (
   <BrowserRouter>
     <Switch>
-      <Route path="/" exact={true} component={Login}/>
+      <Route path="/" exact component={Login}/>
       <Route path="/chat" component={Chat}/>
     </Switch>
   </BrowserRouter>
