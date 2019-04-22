@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const InputUser = styled.input.attrs({
+const InputMessage = styled.input.attrs({
   placeholder: "Diz aí"
 })`
   border: none;
@@ -17,4 +17,4 @@ const InputUser = styled.input.attrs({
   }
 `;
 
-export default InputUser;
+export default InputMessage;

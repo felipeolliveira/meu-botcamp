@@ -6,7 +6,7 @@ import HeaderWrapper from "../../components/HeaderWrapper";
 import LogoBotcamp from "../../components/LogoBotcamp";
 import HeaderLogout from "../../components/HeaderLogout";
 import FooterWrapper from "../../components/FooterWrapper";
-import InputUser from "../../components/InputUser";
+import InputMessage from "../../components/InputMessage";
 
 const Chat = () => (
   <ChatWrapper>
@@ -15,7 +15,7 @@ const Chat = () => (
       <Link to="/"><HeaderLogout /></Link>
     </HeaderWrapper>
     <FooterWrapper>
-      <InputUser />
+      <InputMessage />
     </FooterWrapper>
   </ChatWrapper>
 );
