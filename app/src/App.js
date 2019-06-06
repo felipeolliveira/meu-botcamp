@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter, Switch, Route} from "react-router-dom"
+import {BrowserRouter, Switch, Route, Redirect} from "react-router-dom"
 
 import "./style/reset.css";
 import "./style/customize-reset.css";
@@ -12,6 +12,7 @@ const App = () => (
     <Switch>
       <Route path="/" exact component={Login}/>
       <Route path="/chat" component={Chat}/>
+      <Redirect to="/" />
     </Switch>
   </BrowserRouter>
 );
